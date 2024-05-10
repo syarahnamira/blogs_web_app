@@ -1,9 +1,12 @@
+import Link from "next/link";
+import ControlThemeButton from "./themeController";
+
 export default function Navbar() {
   return (
-    <div className="navbar bg-base-100">
+    <div className="navbar bg-navbar">
       <div className="navbar-start">
         <div className="dropdown">
-          <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
+          <div tabIndex={0} role="button" className="btn btn-black">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-5 w-5"
@@ -24,28 +27,22 @@ export default function Navbar() {
             className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
           >
             <li>
-              <a>Homepage</a>
+              <Link href="/">Homepage</Link>
             </li>
             <li>
-              <a>Profile</a>
+              <Link href="/userpages">User Pages</Link>
             </li>
-            <li>
-              <a>My Blogs</a>
+            <li style={{color: "red"}}>
+              <Link href="/logout">Logout</Link>
             </li>
           </ul>
         </div>
       </div>
       <div className="navbar-center">
-        <a className="btn btn-ghost text-xl">Bloggie</a>
+        <Link href="/" className=" text-xl">Bloggie</Link>
       </div>
       <div className="navbar-end">
-        <div className="form-control">
-          <input
-            type="text"
-            placeholder="Search"
-            className="input input-bordered w-24 md:w-auto"
-          />
-        </div>
+      <ControlThemeButton/>
       </div>
     </div>
   );
