@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { Blog } from "@/app/type";
 import CardComponent from "@/components/card";
 
+
 export default function Home() {
   const [blogs, setBlogs] = useState<Blog[]>([]);
   const [page, setPage] = useState(1);
