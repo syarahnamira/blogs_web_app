@@ -87,6 +87,7 @@ This section provides a quick guide on how to deploy on Vercel. Here are the mai
 ###### Contact Information
 
 Linkedin    : https://www.linkedin.com/in/sitisyarahnamiranurazizah/
+<br>
 Github      : https://github.com/syarahnamira/blogs_web_app
 
 <br>
