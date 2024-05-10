@@ -46,7 +46,7 @@ export default async function DetailPage(params: DetailPostParam) {
             <p className="text-lg mb-4">{blog.body}</p>
             <h2 className="text-2xl font-bold mb-4">Comments</h2>
             {comments.map((comment) => (
-              <CommentComponen name={comment.name} body={comment.body} />
+              <CommentComponen key={comment.key} name={comment.name} body={comment.body} />
             ))}
           </div>
         </div>

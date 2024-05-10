@@ -3,7 +3,8 @@
 import React, { useState } from "react";
 import { Comment } from "@/app/type";
 
-export default function CommentComponen({ name, body }: Comment) {
+export default function CommentComponen({ key, name, body }: Comment) {
+
   const [liked, setLiked] = useState(false);
   const [likeCount, setLikeCount] = useState(0);
   const [showReply, setShowReply] = useState(false);

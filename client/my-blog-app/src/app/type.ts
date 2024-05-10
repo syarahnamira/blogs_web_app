@@ -25,6 +25,7 @@ export type UserDetail = {
 };
 
 export type Comment = {
+  key: number
   name: string;
   body: string;
 };
