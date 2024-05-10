@@ -55,11 +55,38 @@ This section provides a quick guide on how to navigate and use the features of t
 - Adding a Comment: Scroll to the bottom of the post details page to find the comment submission form (on develop). Enter your name and comment, then click 'Submit' to add your comment.
 
 ##### User Management
-Accessing User Management: Click on the 'Users' link in the navigation menu to view the user management page.
-CRUD Operations:
-Create: To add a new user, fill out the form with the user details and click 'Create User'.
-Read: All users are listed on this page. You can view any specific user's details by clicking on their name.
-Update: Click the 'Edit' button next to any user to modify their details. After making changes, click 'Update User' to save.
+- Accessing User Management: Click on the 'Users Pages' link in the navigation menu to view the List User.
+- CRUD Operations:
+Create: To add a new user, click add new user and fill out form. If you have done click 'Submit'.
+Read: All users are listed on this page. You can search any specific user's details by Search Name.
+Update: Click the 'Edit' button next to any user to modify their details. After making changes, click 'Submit' to save.
 Delete: Click the 'Delete' button next to any user to remove them from the list.
 Search: Use the search bar to find users by name. Just type a name and hit 'Search'.
 
+##### Navigating the Application
+- Menu Links: Use the navigation menu to switch between the blog posts list and the user management page.
+- Back to Home: You can always return to the homepage by clicking the 'Homepage' link in the navigation menu.
+
+<br>
+
+### Deployment
+This section provides a quick guide on how to deploy on Vercel. Here are the main functionalities and how you can interact with them:
+
+1. Installation Vercel
+2. Login to Vercel 
+    You can login by Github, Google or etc.
+3. Running the code
+    ```
+    cd to directory application
+    npm run build
+    vercel
+    vercel --prod
+    ```
+<br>
+
+###### Contact Information
+
+Linkedin    : https://www.linkedin.com/in/sitisyarahnamiranurazizah/
+Github      : https://github.com/syarahnamira/blogs_web_app
+
+<br>
